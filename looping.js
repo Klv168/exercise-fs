@@ -83,3 +83,56 @@
 //     console.log(temp)
 //     temp = ''
 // }
+
+/**
+ * Study Case 4
+ * 
+ * Buat segitiga sama kaki
+ * 
+ * var num = 5
+ * 
+ * Result:
+ * #
+ * ##
+ * ###
+ * ####
+ * #####
+ */
+
+// var num = 5;
+// var temp = "";
+// var chara = "#"
+
+// for (var i = 0; i < num; i++) {
+//     for (var j = 0; j <= i; j++) {
+//         temp += chara
+//     }
+//     console.log(temp)
+//     temp = ""
+// }
+
+/**
+ * Study Case 5
+ * 
+ * Buat segitiga angka
+ * 
+ * var num = 5
+ * 
+ * Result:
+ * 1
+ * 12
+ * 123
+ * 1234
+ * 12345
+ */
+
+var num = 5;
+var temp = "";
+
+for (var i = 0; i < num; i++) {
+    for (var j = 0; j <= i; j++) {
+        temp += (j + 1)
+    }
+    console.log(temp)
+    temp = ""
+}
